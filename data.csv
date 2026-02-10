@@ -1,0 +1,914 @@
+﻿Procedure Name,General Ward Rates,Type,Code,AKA,Pre-op Investigation,Post-op Investigation,Speciality Name,Private Rates,Semi Private Rates,Sl No,type
+"4A.M7.00004 : Animal bites (Payment after
+completion of 5th dose)",1275,Unspecified,4A.M7.00004,,Clinical examination,Clinical examination,"GENERAL
+MEDICINE",0,0,689,Other/Unspecified
+"4A.M1.00067C : Respiratory failure due to any cause (pneumonia, asthma, COPD, ARDS, foreign body,
+poisoning, head injury etc.) - ICU with ventilator",3375,ICU with ventilator,4A.M1.00067C,,"Clincal notes, X-ray/CT chest","Clincal notes, X-ray/CT chest",GENERAL MEDICINE,0,0,690,ICU
+"4A.M1.00067A : Respiratory failure due to any cause
+(pneumonia, asthma, COPD, ARDS, foreign body, poisoning, head injury etc.) - HDU",2025,HDU,4A.M1.00067A,,"Clincal notes, X-ray/CT chest","Clincal notes, X-ray/CT chest",GENERAL MEDICINE,0,0,691,HDU
+"4A.M1.00067B : Respiratory failure due to any cause
+(pneumonia, asthma, COPD, ARDS, foreign body, poisoning, head injury etc.) - ICU without ventilator",2700,ICU without ventilator,4A.M1.00067B,,"Clincal notes, X-ray/CT chest","Clincal notes, X-ray/CT chest",GENERAL MEDICINE,0,0,692,ICU
+"4A.M1.00067 : Respiratory failure due to any cause
+(pneumonia, asthma, COPD, ARDS, foreign body, poisoning, head injury etc.) - routine ward",1350,routine ward,4A.M1.00067,,"Clincal notes, X-ray/CT chest","Clincal notes, X-ray/CT chest",GENERAL MEDICINE,0,0,693,routine ward
+"4A.M1.00066C : Status asthmaticus - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00066C,,Clinical Notes,Clinical Notes,"GENERAL
+MEDICINE",0,0,694,ICU
+4A.M1.00066 : Status asthmaticus - routine ward,1350,routine ward,4A.M1.00066,,Clinical Notes,Clinical Notes,"GENERAL
+MEDICINE",0,0,695,routine ward
+4A.M1.00066A : Status asthmaticus - HDU,2025,HDU,4A.M1.00066A,,Clinical Notes,Clinical Notes,"GENERAL
+MEDICINE",0,0,696,HDU
+"4A.M1.00066B : Status asthmaticus - ICU without
+ventilator",2700,ICU without ventilator,4A.M1.00066B,,Clinical Notes,Clinical Notes,"GENERAL
+MEDICINE",0,0,697,ICU
+"4A.M1.00065C : Status epilepticus - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00065C,,Clinical Notes,Clinical Notes,"GENERAL
+MEDICINE",0,0,698,ICU
+4A.M1.00065A : Status epilepticus - HDU,2025,HDU,4A.M1.00065A,,Clinical Notes,Clinical Notes,"GENERAL
+MEDICINE",0,0,699,HDU
+"4A.M1.00065B : Status epilepticus - ICU without
+ventilator",2700,ICU without ventilator,4A.M1.00065B,,Clinical Notes,Clinical Notes,"GENERAL
+MEDICINE",0,0,700,ICU
+"4A.M1.00064C : AKI/ renal failure(dialysis payable separately as an add on package for ) - - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00064C,Acute Kidney Injury,Clinical Notes with relevant investigations,Treatment Notes,GENERAL MEDICINE,0,0,701,ICU
+4A.M1.00065 : Status epilepticus - routine ward,1350,routine ward,4A.M1.00065,,Clinical Notes,Clinical Notes,"GENERAL
+MEDICINE",0,0,702,routine ward
+"4A.M1.00064B : AKI/ renal failure(dialysis payable separately as an add on package for ) - - ICU without
+ventilator",2700,ICU without ventilator,4A.M1.00064B,Acute Kidney Injury,Clinical Notes with relevant investigations,Treatment Notes,GENERAL MEDICINE,0,0,703,ICU
+"4A.M1.00064 : AKI/ renal failure(dialysis payable
+separately as an add on package for ) - routine ward",1350,routine ward,4A.M1.00064,Acute Kidney Injury,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,704,routine ward
+"4A.M1.00064A : AKI/ renal failure(dialysis payable
+separately as an add on package for ) - HDU",2025,HDU,4A.M1.00064A,Acute Kidney Injury,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,705,HDU
+"4A.M1.00060C : Acute transverse myelitis - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00060C,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,706,ICU
+4A.M1.00060A : Acute transverse myelitis - HDU,2025,HDU,4A.M1.00060A,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,707,HDU
+"4A.M1.00060B : Acute transverse myelitis - ICU
+without ventilator",2700,ICU without ventilator,4A.M1.00060B,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,708,ICU
+"4A.M1.00059C : Immune mediated CNS disorders
+such as autoimmune encephalitis - ICU with ventilator",3375,ICU with ventilator,4A.M1.00059C,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,709,ICU
+"4A.M1.00060 : Acute transverse myelitis - routine
+ward",1350,routine ward,4A.M1.00060,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,710,routine ward
+"4A.M1.00059B : Immune mediated CNS disorders
+such as autoimmune encephalitis - ICU without ventilator",2700,ICU without ventilator,4A.M1.00059B,,Clinical notes,Clinical notes,GENERAL MEDICINE,0,0,711,ICU
+"4A.M1.00059 : Immune mediated CNS disorders such
+as autoimmune encephalitis - routine ward",1350,routine ward,4A.M1.00059,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,712,routine ward
+"4A.M1.00059A : Immune mediated CNS disorders
+such as autoimmune encephalitis - HDU",2025,HDU,4A.M1.00059A,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,713,HDU
+"4A.M1.00056C : Upper GI bleeding (conservative) -
+ICU with ventilator",3375,ICU with ventilator,4A.M1.00056C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,714,ICU
+"4A.M1.00056A : Upper GI bleeding (conservative) -
+HDU",2025,HDU,4A.M1.00056A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,715,HDU
+"4A.M1.00056B : Upper GI bleeding (conservative) -
+ICU without ventilator",2700,ICU without ventilator,4A.M1.00056B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,716,ICU
+"4A.M1.00056 : Upper GI bleeding (conservative) -
+routine ward",1350,routine ward,4A.M1.00056,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,717,routine ward
+"4A.M1.00055C : Severe sepsis/Septic shock - ICU
+with ventilator",3375,ICU with ventilator,4A.M1.00055C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,718,ICU
+4A.M1.00055A : Severe sepsis/Septic shock - HDU,2025,HDU,4A.M1.00055A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,719,HDU
+"4A.M1.00055B : Severe sepsis/Septic shock - ICU
+without ventilator",2700,ICU without ventilator,4A.M1.00055B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,720,ICU
+"4A.M1.00054C : Cerebrovascular accident - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00054C,"Stroke, CVA","Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,721,ICU
+"4A.M1.00055 : Severe sepsis/Septic shock - routine
+ward",1350,routine ward,4A.M1.00055,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,722,routine ward
+"4A.M1.00054B : Cerebrovascular accident - ICU
+without ventilator",2700,ICU without ventilator,4A.M1.00054B,"Stroke, CVA","Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,723,ICU
+"4A.M1.00054 : Cerebrovascular accident - routine
+ward",1350,routine ward,4A.M1.00054,"Stroke, CVA","Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,724,routine ward
+4A.M1.00054A : Cerebrovascular accident - HDU,2025,HDU,4A.M1.00054A,"Stroke, CVA","Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,725,HDU
+"4A.M1.00053B : Hyperosmolar Non-Ketotic coma -
+ICU without ventilator",2700,ICU without ventilator,4A.M1.00053B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,726,ICU
+"4A.M1.00053C : Hyperosmolar Non-Ketotic coma -
+ICU with ventilator",3375,ICU with ventilator,4A.M1.00053C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,727,ICU
+"4A.M1.00053A : Hyperosmolar Non-Ketotic coma -
+HDU",2025,HDU,4A.M1.00053A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,728,HDU
+4A.M1.00052C : Heat stroke - ICU with ventilator,3375,ICU with ventilator,4A.M1.00052C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,729,ICU
+"4A.M1.00053 : Hyperosmolar Non-Ketotic coma -
+routine ward",1350,routine ward,4A.M1.00053,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,730,routine ward
+4A.M1.00052A : Heat stroke - HDU,2025,HDU,4A.M1.00052A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,731,HDU
+4A.M1.00052B : Heat stroke - ICU without ventilator,2700,ICU without ventilator,4A.M1.00052B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,732,ICU
+"4A.M1.00051C : Complicated malaria - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00051C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,733,ICU
+4A.M1.00052 : Heat stroke - routine ward,1350,routine ward,4A.M1.00052,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,734,routine ward
+"4A.M1.00051B : Complicated malaria - ICU without
+ventilator",2700,ICU without ventilator,4A.M1.00051B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,735,ICU
+4A.M1.00051 : Complicated malaria - routine ward,1350,routine ward,4A.M1.00051,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,736,routine ward
+4A.M1.00051A : Complicated malaria - HDU,2025,HDU,4A.M1.00051A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,737,HDU
+4A.M1.00050F2 : Additional drug charges for KFD complicated - ICU,2000,Unspecified,4A.M1.00050F2,,"clinical notes, Blood examination report","clinical notes, Blood examination
+report and list of additional drugs used if any along with vouchers",GENERAL MEDICINE,0,0,738,ICU
+"4A.M1.00050F : KFD complicated - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00050F,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,739,ICU
+4A.M1.00050F1 : LAB investigation KFD complicated - ICU,2000,Unspecified,4A.M1.00050F1,,"clinical notes, Blood examination report","clinical notes, Blood examination report, details of the lab investigations and any virology test
+reports",GENERAL MEDICINE,0,0,740,ICU
+4A.M1.00050E1 : LAB investigation KFD uncomplicated - HDU,2000,HDU,4A.M1.00050E1,,"clinical notes, Blood examination report","clinical notes, Blood examination report, details of the lab
+investigations and any virology test reports",GENERAL MEDICINE,0,0,741,HDU
+4A.M1.00050E : KFD uncomplicated - HDU,2025,HDU,4A.M1.00050E,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,742,HDU
+"4A.M1.00050C : Dengue hemorrhagic fever/Dengue
+shock syndrome - ICU with ventilator",3375,ICU with ventilator,4A.M1.00050C,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,743,ICU
+4A.M1.00050D : Suspected KFD - routine ward,1350,routine ward,4A.M1.00050D,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,744,routine ward
+"4A.M1.00050B : Dengue hemorrhagic fever/Dengue
+shock syndrome - ICU without ventilator",2700,ICU without ventilator,4A.M1.00050B,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,745,ICU
+"4A.M1.00050 : Dengue hemorrhagic fever/Dengue
+shock syndrome - routine ward",1350,routine ward,4A.M1.00050,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,746,routine ward
+"4A.M1.00050A : Dengue hemorrhagic fever/Dengue
+shock syndrome - HDU",2025,HDU,4A.M1.00050A,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,747,HDU
+"4A.M1.00049B : Hypertensive emergencies - ICU
+without ventilator",2700,ICU without ventilator,4A.M1.00049B,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,748,ICU
+"4A.M1.00049C : Hypertensive emergencies - ICU
+with ventilator",3375,ICU with ventilator,4A.M1.00049C,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,749,ICU
+"4A.M1.00049 : Hypertensive emergencies - routine
+ward",1350,routine ward,4A.M1.00049,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,750,routine ward
+4A.M1.00049A : Hypertensive emergencies - HDU,2025,HDU,4A.M1.00049A,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,751,HDU
+4A.M1.00046 : Acutre excaberation of COPD,0,Unspecified,4A.M1.00046,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,752,Other/Unspecified
+"4A.M1.00045C : Acute asthmatic attack - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00045C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,753,ICU
+"4A.M1.00045B : Acute asthmatic attack - ICU without
+ventilator",2700,ICU without ventilator,4A.M1.00045B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,754,ICU
+4A.M1.00045 : Acute asthmatic attack - routine ward,1350,routine ward,4A.M1.00045,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,755,routine ward
+4A.M1.00045A : Acute asthmatic attack - HDU,2025,HDU,4A.M1.00045A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,756,HDU
+"4A.M1.00044B : Type 1/2 respiratory failure - ICU
+without ventilator",2700,ICU without ventilator,4A.M1.00044B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,757,ICU
+"4A.M1.00044C : Type 1/2 respiratory failure - ICU
+with ventilator",3375,ICU with ventilator,4A.M1.00044C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,758,ICU
+"4A.M1.00044 : Type 1/2 respiratory failure - routine
+ward",1350,routine ward,4A.M1.00044,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,759,routine ward
+4A.M1.00044A : Type 1/2 respiratory failure - HDU,2025,HDU,4A.M1.00044A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,760,HDU
+"4A.M1.00035B : Viral encephalitis - ICU without
+ventilator",2700,ICU without ventilator,4A.M1.00035B,,"Clinical notes, CT","Clinical notes, CT","GENERAL
+MEDICINE",0,0,761,ICU
+"4A.M1.00035C : Viral encephalitis - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00035C,,"Clinical notes, CT","Clinical notes, CT","GENERAL
+MEDICINE",0,0,762,ICU
+4A.M1.00035 : Viral encephalitis - routine ward,1350,routine ward,4A.M1.00035,,"Clinical notes, CT","Clinical notes, CT","GENERAL
+MEDICINE",0,0,763,routine ward
+4A.M1.00035A : Viral encephalitis - HDU,2025,HDU,4A.M1.00035A,,"Clinical notes, CT","Clinical notes, CT","GENERAL
+MEDICINE",0,0,764,HDU
+4A.M1.00030B : Seizures - ICU without ventilator,2700,ICU without ventilator,4A.M1.00030B,,EEG,EEG,"GENERAL
+MEDICINE",0,0,765,ICU
+4A.M1.00030C : Seizures - ICU with ventilator,3375,ICU with ventilator,4A.M1.00030C,,EEG,EEG,"GENERAL
+MEDICINE",0,0,766,ICU
+4A.M1.00030 : Seizures - routine ward,1350,routine ward,4A.M1.00030,,EEG,EEG,"GENERAL
+MEDICINE",0,0,767,routine ward
+4A.M1.00030A : Seizures - HDU,2025,HDU,4A.M1.00030A,,EEG,EEG,"GENERAL
+MEDICINE",0,0,768,HDU
+"4A.M1.00025B : Other poisoning - ICU without
+ventilator",2700,ICU without ventilator,4A.M1.00025B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,769,ICU
+"4A.M1.00025C : Other poisoning - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00025C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,770,ICU
+4A.M1.00025 : Other poisoning - routine ward,1350,routine ward,4A.M1.00025,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,771,routine ward
+4A.M1.00025A : Other poisoning - HDU,2025,HDU,4A.M1.00025A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,772,HDU
+"4A.M1.00024C : Acute organophosphorus poisoning -
+ICU with ventilator",3375,ICU with ventilator,4A.M1.00024C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,773,ICU
+"4A.M1.00024A : Acute organophosphorus poisoning -
+HDU",2025,HDU,4A.M1.00024A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,774,HDU
+"4A.M1.00024B : Acute organophosphorus poisoning -
+ICU without ventilator",2700,ICU without ventilator,4A.M1.00024B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,775,ICU
+4A.M1.00023C : Snake bite - ICU with ventilator,3375,ICU with ventilator,4A.M1.00023C,,"Clinical notes, photo of bite mark",Treatment Notes,"GENERAL
+MEDICINE",0,0,776,ICU
+"4A.M1.00024 : Acute organophosphorus poisoning -
+routine ward",1350,routine ward,4A.M1.00024,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,777,routine ward
+4A.M1.00023B : Snake bite - ICU without ventilator,2700,ICU without ventilator,4A.M1.00023B,,"Clinical notes, photo of bite mark",Treatment Notes,"GENERAL
+MEDICINE",0,0,778,ICU
+4A.M1.00023 : Snake bite - routine ward,1350,routine ward,4A.M1.00023,,"Clinical notes, photo of bite mark",Treatment Notes,"GENERAL
+MEDICINE",0,0,779,routine ward
+4A.M1.00023A : Snake bite - HDU,2025,HDU,4A.M1.00023A,,"Clinical notes, photo of bite mark",Treatment Notes,"GENERAL
+MEDICINE",0,0,780,HDU
+"4A.M1.00020B : Acute excaberation of ILD - ICU
+without ventilator",2700,ICU without ventilator,4A.M1.00020B,,"clinical notes, USG abdomen",clinical notes,"GENERAL
+MEDICINE",0,0,781,ICU
+"4A.M1.00020C : Acute excaberation of ILD - ICU
+with ventilator",3375,ICU with ventilator,4A.M1.00020C,,"clinical notes, USG abdomen",clinical notes,"GENERAL
+MEDICINE",0,0,782,ICU
+"4A.M1.00020 : Acute excaberation of ILD - routine
+ward",1350,routine ward,4A.M1.00020,,"clinical notes, USG abdomen",clinical notes,"GENERAL
+MEDICINE",0,0,783,routine ward
+4A.M1.00020A : Acute excaberation of ILD - HDU,2025,HDU,4A.M1.00020A,,"clinical notes, USG abdomen",clinical notes,"GENERAL
+MEDICINE",0,0,784,HDU
+"4A.M1.00012B : Acutre excaberation of COPD - ICU
+without ventilator",2700,ICU without ventilator,4A.M1.00012B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,785,ICU
+"4A.M1.00012C : Acutre excaberation of COPD - ICU
+with ventilator",3375,ICU with ventilator,4A.M1.00012C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,786,ICU
+"4A.M1.00012 : Acutre excaberation of COPD -
+routine ward",1350,routine ward,4A.M1.00012,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,787,routine ward
+"4A.M1.00012A : Acutre excaberation of COPD -
+HDU",2025,HDU,4A.M1.00012A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,788,HDU
+"4A.M1.00007C : Accelerated hypertension - ICU with
+ventilator",3375,ICU with ventilator,4A.M1.00007C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,789,ICU
+4A.M1.00007A : Accelerated hypertension - HDU,2025,HDU,4A.M1.00007A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,790,HDU
+"4A.M1.00007B : Accelerated hypertension - ICU
+without ventilator",2700,ICU without ventilator,4A.M1.00007B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,791,ICU
+"4A.M1.00007 : Accelerated hypertension - routine
+ward",1350,routine ward,4A.M1.00007,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,792,routine ward
+"4A.M1.00006B : Pneumothroax - ICU without
+ventilator",2700,ICU without ventilator,4A.M1.00006B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,793,ICU
+4A.M1.00006C : Pneumothroax - ICU with ventilator,3375,ICU with ventilator,4A.M1.00006C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,794,ICU
+4A.M1.00006 : Pneumothroax - routine ward,1350,routine ward,4A.M1.00006,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,795,routine ward
+4A.M1.00006A : Pneumothroax - HDU,2025,HDU,4A.M1.00006A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,796,HDU
+"3A.M2.00061F : Wilson???s disease - ICU without
+ventilator - cross speciality",2700,ICU without ventilator,3A.M2.00061F,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,797,ICU
+"3A.M2.00061G : Wilson???s disease - ICU with
+ventilator - cross speciality",3375,ICU with ventilator,3A.M2.00061G,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,798,ICU
+"3A.M2.00061E : Wilson???s disease - HDU - cross
+speciality",2025,HDU,3A.M2.00061E,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,799,HDU
+"3A.M2.00061D : Wilson???s disease - routine ward -
+cross speciality",1350,routine ward,3A.M2.00061D,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,800,routine ward
+"3A.M2.00015G : Chronic cough - cross speciality -
+ICU without ventilator",2700,ICU without ventilator,3A.M2.00015G,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,801,ICU
+"3A.M2.00015F : Chronic cough - cross speciality -
+ICU with ventilator",3375,ICU with ventilator,3A.M2.00015F,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,802,ICU
+"3A.M2.00015E : Chronic cough - cross speciality -
+HDU",2025,HDU,3A.M2.00015E,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,803,HDU
+"3A.M2.00015D : Chronic cough - cross speciality -
+routine ward",1350,routine ward,3A.M2.00015D,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,804,routine ward
+"3A.M2.00011H : Optic neuritis - routine ward - cross
+speciality",1350,routine ward,3A.M2.00011H,,Clinical note with Lab reports,Treatment note,"GENERAL
+MEDICINE",0,0,805,routine ward
+3A.M1.00069 : Plasmapheresis - per session,1500,Unspecified,3A.M1.00069,,Blood examination,Blood examination,"GENERAL
+MEDICINE",0,0,806,Other/Unspecified
+"3A.M1.00070 : Haemodialysis/Peritoneal Dialysis
+(only for ARF) - per session",1500,Unspecified,3A.M1.00070,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,807,Other/Unspecified
+"3A.M1.00063C : Cerebral sino-venous thrombosis -
+ICU with ventilator",3375,ICU with ventilator,3A.M1.00063C,,"Clinical notes, CT - brain","Clinical notes, CT - brain","GENERAL
+MEDICINE",0,0,808,ICU
+"3A.M1.00063B : Cerebral sino-venous thrombosis -
+ICU without ventilator",2700,ICU without ventilator,3A.M1.00063B,,"Clinical notes, CT - brain","Clinical notes, CT - brain","GENERAL
+MEDICINE",0,0,809,ICU
+"3A.M1.00063A : Cerebral sino-venous thrombosis -
+HDU",2025,HDU,3A.M1.00063A,,"Clinical notes, CT - brain","Clinical notes, CT - brain","GENERAL
+MEDICINE",0,0,810,HDU
+"3A.M1.00063 : Cerebral sino-venous thrombosis -
+routine ward",1350,routine ward,3A.M1.00063,,"Clinical notes, CT - brain","Clinical notes, CT - brain","GENERAL
+MEDICINE",0,0,811,routine ward
+3A.M1.00062C : Hydrocephalus - ICU with ventilator,3375,ICU with ventilator,3A.M1.00062C,,CT Report,"CT Report, Scar Photo, X Ray","GENERAL
+MEDICINE",0,0,812,ICU
+"3A.M1.00062B : Hydrocephalus - ICU without
+ventilator",2700,ICU without ventilator,3A.M1.00062B,,CT Report,"CT Report, Scar Photo, X Ray","GENERAL
+MEDICINE",0,0,813,ICU
+3A.M1.00062A : Hydrocephalus - HDU,2025,HDU,3A.M1.00062A,,CT Report,"CT Report, Scar Photo, X Ray","GENERAL
+MEDICINE",0,0,814,HDU
+3A.M1.00062 : Hydrocephalus - routine ward,1350,routine ward,3A.M1.00062,,CT Report,"CT Report, Scar Photo, X Ray","GENERAL
+MEDICINE",0,0,815,routine ward
+"3A.M1.00058C : Lower GI hemorrhage - ICU with
+ventilator",3375,ICU with ventilator,3A.M1.00058C,,"clinical notes, USG/CT/MRI","clinical notes, USG/CT/MRI","GENERAL
+MEDICINE",0,0,816,ICU
+"3A.M1.00058B : Lower GI hemorrhage - ICU without
+ventilator",2700,ICU without ventilator,3A.M1.00058B,,"clinical notes, USG/CT/MRI","clinical notes, USG/CT/MRI","GENERAL
+MEDICINE",0,0,817,ICU
+3A.M1.00058A : Lower GI hemorrhage - HDU,2025,HDU,3A.M1.00058A,,"clinical notes, USG/CT/MRI","clinical notes, USG/CT/MRI","GENERAL
+MEDICINE",0,0,818,HDU
+3A.M1.00058 : Lower GI hemorrhage - routine ward,1350,routine ward,3A.M1.00058,,"clinical notes, USG/CT/MRI","clinical notes, USG/CT/MRI","GENERAL
+MEDICINE",0,0,819,routine ward
+"3A.M1.00047C : Severe pneumonia - ICU with
+ventilator",3375,ICU with ventilator,3A.M1.00047C,,"Clinical Notes with relevant
+investigations, X-ray/USG of chest",Treatment Notes,"GENERAL
+MEDICINE",0,0,820,ICU
+"3A.M1.00047B : Severe pneumonia - ICU without
+ventilator",2700,ICU without ventilator,3A.M1.00047B,,"Clinical Notes with relevant
+investigations, X-ray/USG of chest",Treatment Notes,"GENERAL
+MEDICINE",0,0,821,ICU
+3A.M1.00047A : Severe pneumonia- HDU,2025,HDU,3A.M1.00047A,,"Clinical Notes with relevant
+investigations, X-ray/USG of chest",Treatment Notes,"GENERAL
+MEDICINE",0,0,822,HDU
+3A.M1.00047 : Severe pneumonia - routine ward,1350,routine ward,3A.M1.00047,,"Clinical Notes with relevant
+investigations, X-ray/USG of chest",Treatment Notes,"GENERAL
+MEDICINE",0,0,823,routine ward
+"3A.M1.00043C : Poisonings with unstable vitals - ICU
+with ventilator",3375,ICU with ventilator,3A.M1.00043C,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,824,ICU
+"3A.M1.00043B : Poisonings with unstable vitals - ICU
+without ventilator",2700,ICU without ventilator,3A.M1.00043B,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,825,ICU
+"3A.M1.00043A : Poisonings with unstable vitals -
+HDU",2025,HDU,3A.M1.00043A,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,826,HDU
+"3A.M1.00043 : Poisonings with unstable vitals -
+routine ward",1350,routine ward,3A.M1.00043,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,827,routine ward
+"3A.M1.00042C : Sickle cell Anemia - ICU with
+ventilator",3375,ICU with ventilator,3A.M1.00042C,,Clinical notes confirming digonosis,clinical notes in relevant reports,"GENERAL
+MEDICINE",0,0,828,ICU
+"3A.M1.00042B : Sickle cell Anemia - ICU without
+ventilator",2700,ICU without ventilator,3A.M1.00042B,,Clinical notes confirming digonosis,clinical notes in relevant reports,"GENERAL
+MEDICINE",0,0,829,ICU
+3A.M1.00042A : Sickle cell Anemia - HDU,2025,HDU,3A.M1.00042A,,Clinical notes confirming digonosis,clinical notes in relevant reports,"GENERAL
+MEDICINE",0,0,830,HDU
+3A.M1.00042 : Sickle cell Anemia - routine ward,1350,routine ward,3A.M1.00042,,Clinical notes confirming digonosis,clinical notes in relevant reports,"GENERAL
+MEDICINE",0,0,831,routine ward
+"3A.M1.00041B : Metabolic encephalopathy - ICU
+without ventilator",2700,ICU without ventilator,3A.M1.00041B,,"clinical notes, CT","clinical notes, CT","GENERAL
+MEDICINE",0,0,832,ICU
+"3A.M1.00041C : Metabolic encephalopathy - ICU
+with ventilator",3375,ICU with ventilator,3A.M1.00041C,,"clinical notes, CT","clinical notes, CT","GENERAL
+MEDICINE",0,0,833,ICU
+3A.M1.00041A : Metabolic encephalopathy - HDU,2025,HDU,3A.M1.00041A,,"clinical notes, CT","clinical notes, CT","GENERAL
+MEDICINE",0,0,834,HDU
+"3A.M1.00041 : Metabolic encephalopathy - routine
+ward",1350,routine ward,3A.M1.00041,,"clinical notes, CT","clinical notes, CT","GENERAL
+MEDICINE",0,0,835,routine ward
+"3A.M1.00039B : HIV with complications - ICU
+without ventilator",2700,ICU with ventilator,3A.M1.00039B,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,836,ICU
+"3A.M1.00039C : HIV with complications - ICU with
+ventilator",3375,ICU with ventilator,3A.M1.00039C,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,837,ICU
+3A.M1.00039A : HIV with complications - HDU,2025,HDU,3A.M1.00039A,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,838,HDU
+3A.M1.00039 : HIV with complications - routine ward,1350,routine ward,3A.M1.00039,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,839,routine ward
+"3A.M1.00038C : Visceral leishmaniasis - ICU with
+ventilator",3375,ICU with ventilator,3A.M1.00038C,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,840,ICU
+"3A.M1.00038B : Visceral leishmaniasis - ICU without
+ventilator",2700,ICU without ventilator,3A.M1.00038B,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,841,ICU
+3A.M1.00038A : Visceral leishmaniasis - HDU,2025,HDU,3A.M1.00038A,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,842,HDU
+3A.M1.00038 : Visceral leishmaniasis - routine ward,1350,routine ward,3A.M1.00038,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,843,routine ward
+"3A.M1.00034C : Acute and chronic meningitis - ICU
+with ventilator",3375,ICU with ventilator,3A.M1.00034C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,844,ICU
+"3A.M1.00034B : Acute and chronic meningitis - ICU
+without ventilator",2700,ICU without ventilator,3A.M1.00034B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,845,ICU
+3A.M1.00034A : Acute and chronic meningitis - HDU,2025,HDU,3A.M1.00034A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,846,HDU
+"3A.M1.00032C : Acute inflammatory demyelinating
+polyneuropathy - ICU with ventilator",3375,ICU with ventilator,3A.M1.00032C,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,847,ICU
+"3A.M1.00034 : Acute and chronic meningitis - routine
+ward",1350,routine ward,3A.M1.00034,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,848,routine ward
+"3A.M1.00032B : Acute inflammatory demyelinating
+polyneuropathy - ICU without ventilator",2700,ICU without ventilator,3A.M1.00032B,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,849,ICU
+"3A.M1.00032A : Acute inflammatory demyelinating
+polyneuropathy - HDU",2025,HDU,3A.M1.00032A,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,850,HDU
+"3A.M1.00032 : Acute inflammatory demyelinating
+polyneuropathy - routine ward",1350,routine ward,3A.M1.00032,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,851,routine ward
+"3A.M1.00016B : Chikungunya fever - ICU without
+ventilator",2700,ICU without ventilator,3A.M1.00016B,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,852,ICU
+"3A.M1.00016C : Chikungunya fever - ICU with
+ventilator",3375,ICU with ventilator,3A.M1.00016C,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,853,ICU
+3A.M1.00016A : Chikungunya fever - HDU,2025,HDU,3A.M1.00016A,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,854,HDU
+3A.M1.00016 : Chikungunya fever - routine ward,1350,routine ward,3A.M1.00016,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,855,routine ward
+"3A.M1.00002D : Recurrent vomiting with dehydration
+- routine ward - cross speciality",1350,routine ward,3A.M1.00002D,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,856,routine ward
+"3A.M1.00002C : Recurrent vomiting with dehydration
+- ICU with ventilator",3375,ICU with ventilator,3A.M1.00002C,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,857,ICU
+"3A.M1.00002B : Recurrent vomiting with dehydration
+- ICU without ventilator",2700,ICU without ventilator,3A.M1.00002B,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,858,ICU
+"3A.M1.00002A : Recurrent vomiting with dehydration
+- HDU",2025,HDU,3A.M1.00002A,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,859,HDU
+"3A.M1.00002 : Recurrent vomiting with dehydration -
+routine ward",1350,routine ward,3A.M1.00002,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,860,routine ward
+"2B.M1.00061C : Guillian Barre Syndrome - ICU with
+ventilator",3375,ICU with ventilator,2B.M1.00061C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,861,ICU
+"2B.M1.00061B : Guillian Barre Syndrome - ICU
+without ventilator",2700,ICU without ventilator,2B.M1.00061B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,862,ICU
+"2B.M1.00061 : Guillian Barre Syndrome - routine
+ward",1350,routine ward,2B.M1.00061,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,863,routine ward
+2B.M1.00061A : Guillian Barre Syndrome - HDU,2025,HDU,2B.M1.00061A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,864,HDU
+"2B.M1.00057C : Upper GI bleeding (endoscopic) -
+ICU with ventilator",3375,ICU with ventilator,2B.M1.00057C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,865,ICU
+"2B.M1.00057A : Upper GI bleeding (endoscopic) -
+HDU",2025,HDU,2B.M1.00057A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,866,HDU
+"2B.M1.00057B : Upper GI bleeding (endoscopic) -
+ICU without ventilator",2700,ICU without ventilator,2B.M1.00057B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,867,ICU
+"2B.M1.00057 : Upper GI bleeding (endoscopic) -
+routine ward",1350,routine ward,2B.M1.00057,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,868,routine ward
+"2B.M1.00048C : Acute gastroenteritis with severe
+dehydration - ICU with ventilator",3375,ICU with ventilator,2B.M1.00048C,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,869,ICU
+"2B.M1.00048A : Acute gastroenteritis with severe
+dehydration - HDU",2025,HDU,2B.M1.00048A,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,870,HDU
+"2B.M1.00048B : Acute gastroenteritis with severe
+dehydration - ICU without ventilator",2700,ICU without ventilator,2B.M1.00048B,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,871,ICU
+"2B.M1.00048 : Acute gastroenteritis with severe
+dehydration - routine ward",1350,routine ward,2B.M1.00048,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,872,routine ward
+"2B.M1.00033B : Lung abscess/ Empyema - ICU
+without ventilator",2700,ICU without ventilator,2B.M1.00033B,,"clinical notes, X-ray /USG -chest","clinical notes, X-ray /USG -chest","GENERAL
+MEDICINE",0,0,873,ICU
+"2B.M1.00033C : Lung abscess/ Empyema - ICU with
+ventilator",3375,ICU with ventilator,2B.M1.00033C,,"clinical notes, X-ray /USG -chest","clinical notes, X-ray /USG -chest","GENERAL
+MEDICINE",0,0,874,ICU
+"2B.M1.00033 : Lung abscess/ Empyema - routine
+ward",1350,routine ward,2B.M1.00033,,"clinical notes, X-ray /USG -chest","clinical notes, X-ray /USG -chest","GENERAL
+MEDICINE",0,0,875,routine ward
+2B.M1.00033A : Lung abscess/ Empyema - HDU,2025,HDU,2B.M1.00033A,,"clinical notes, X-ray /USG -chest","clinical notes, X-ray /USG -chest","GENERAL
+MEDICINE",0,0,876,HDU
+"2B.M1.00010C : Diabetic ketoacidosis - ICU with
+ventilator",3375,ICU with ventilator,2B.M1.00010C,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,877,ICU
+2B.M1.00010A : Diabetic ketoacidosis - HDU,2025,HDU,2B.M1.00010A,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,878,HDU
+"2B.M1.00010B : Diabetic ketoacidosis - ICU without
+ventilator",2700,ICU without ventilator,2B.M1.00010B,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,879,ICU
+"2B.M1.00008C : Congestive heart failure - ICU with
+ventilator",3375,ICU with ventilator,2B.M1.00008C,CHF,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,880,ICU
+2B.M1.00010 : Diabetic ketoacidosis - routine ward,1350,routine ward,2B.M1.00010,,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,881,routine ward
+2B.M1.00008A : Congestive heart failure - HDU,2025,HDU,2B.M1.00008A,"CHF ","Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,882,HDU
+"2B.M1.00008B : Congestive heart failure - ICU
+without ventilator",2700,ICU without ventilator,2B.M1.00008B,CHF,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,883,ICU
+2B.M1.00008 : Congestive heart failure - routine ward,1350,routine ward,2B.M1.00008,CHF,"Clinical Notes with relevant
+investigations",Treatment Notes,"GENERAL
+MEDICINE",0,0,884,routine ward
+"2A.S1.00252A : Peritoneal dialysis per sitting - cross
+speciality",1000,Unspecified,2A.S1.00252A,,"Clinical notes, Serum Creatinine",OT notes,"GENERAL
+MEDICINE",0,0,885,Other/Unspecified
+2A.S1.00214A : Hemodialysis per sitting - cross speciality,1000,Unspecified,2A.S1.00214A,,"ECHO, RFT,  CBC","photo with dialysis machine during
+the course, RFT,  CBC, KT value & patient weight",GENERAL MEDICINE,0,0,886,Other/Unspecified
+"2A.M1.00072 : High end histopathology (Biopsies) and advanced serology investigations - can only be
+clubbed with medical package. Rs 5000 per annum limit to a family",2500,Unspecified,2A.M1.00072,,Clincal notes,Clincal notes,GENERAL MEDICINE,0,0,887,Other/Unspecified
+"2A.M1.00071 : High end radiological diagnostic (CT, MRI, Imaging including nuclear imaging) - can only be clubbed with medical package. Rs 5000 per annum
+limit to a family",2500,Unspecified,2A.M1.00071,,Clincal notes,Clincal notes,GENERAL MEDICINE,0,0,888,Other/Unspecified
+"2A.M1.00068 : Blood and blood component transfusion (admission for a diagnostic procedure leading to treatment requiring admission, e.g. bone marrow and bone biopsy, endoscopy, liver biopsy, bronchoscopy, CT/MRI under GA, broncho-alveolar
+lavage, lumbar p",1000,Unspecified,2A.M1.00068,,Blood group matching,Clinical notes,GENERAL MEDICINE,0,0,889,Other/Unspecified
+"2A.M1.00040C : Neuromuscular disorders - ICU with
+ventilator",2250,ICU with ventilator,2A.M1.00040C,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,890,ICU
+"2A.M1.00040B : Neuromuscular disorders - ICU
+without ventilator",1800,ICU without ventilator,2A.M1.00040B,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,891,ICU
+2A.M1.00040A : Neuromuscular disorders - HDU,1350,HDU,2A.M1.00040A,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,892,HDU
+"2A.M1.00040 : Neuromuscular disorders - routine
+ward",900,routine ward,2A.M1.00040,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,893,routine ward
+"2A.M1.00037C : Acute and chronic pancreatitis - ICU
+with ventilator",2250,ICU with ventilator,2A.M1.00037C,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,894,ICU
+"2A.M1.00037B : Acute and chronic pancreatitis - ICU
+without ventilator",1800,ICU without ventilator,2A.M1.00037B,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,895,ICU
+"2A.M1.00037A : Acute and chronic pancreatitis -
+HDU",1350,HDU,2A.M1.00037A,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,896,HDU
+"2A.M1.00037 : Acute and chronic pancreatitis -
+routine ward",900,routine ward,2A.M1.00037,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,897,routine ward
+"2A.M1.00036C : Persistent/ Chronic diarrohea - ICU
+with ventilator",2250,ICU with ventilator,2A.M1.00036C,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,898,ICU
+"2A.M1.00036B : Persistent/ Chronic diarrohea - ICU
+without ventilator",1800,ICU without ventilator,2A.M1.00036B,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,899,ICU
+2A.M1.00036A : Persistent/ Chronic diarrohea - HDU,1350,HDU,2A.M1.00036A,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,900,HDU
+"2A.M1.00036 : Persistent/ Chronic diarrohea - routine
+ward",900,routine ward,2A.M1.00036,,Clinical notes,Clinical notes,"GENERAL
+MEDICINE",0,0,901,routine ward
+"2A.M1.00031C : Bacterial/ fungal endocarditis - ICU
+with ventilator",2250,ICU with ventilator,2A.M1.00031C,,"clinical notes, X-ray /USG -chest",clinical notes,"GENERAL
+MEDICINE",0,0,902,ICU
+"2A.M1.00031B : Bacterial/ fungal endocarditis - ICU
+without ventilator",1800,ICU without ventilator,2A.M1.00031B,,"clinical notes, X-ray /USG -chest",clinical notes,"GENERAL
+MEDICINE",0,0,903,ICU
+2A.M1.00031A : Bacterial/ fungal endocarditis - HDU,1350,HDU,2A.M1.00031A,,"clinical notes, X-ray /USG -chest",clinical notes,"GENERAL
+MEDICINE",0,0,904,HDU
+"2A.M1.00031 : Bacterial/ fungal endocarditis - routine
+ward",900,routine ward,2A.M1.00031,,"clinical notes, X-ray /USG -chest",clinical notes,"GENERAL
+MEDICINE",0,0,905,routine ward
+2A.M1.00029C : Vasculitis - ICU with ventilator,2250,ICU with ventilator,2A.M1.00029C,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,906,ICU
+2A.M1.00029B : Vasculitis - ICU without ventilator,1800,ICU without ventilator,2A.M1.00029B,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,907,ICU
+2A.M1.00029A : Vasculitis - HDU,1350,HDU,2A.M1.00029A,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,908,HDU
+2A.M1.00029 : Vasculitis - routine ward,900,routine ward,2A.M1.00029,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,909,routine ward
+"2A.M1.00028C : Systematic lupus erythematosus -
+ICU with ventilator",2250,ICU with ventilator,2A.M1.00028C,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,910,ICU
+"2A.M1.00028B : Systematic lupus erythematosus -
+ICU without ventilator",1800,ICU without ventilator,2A.M1.00028B,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,911,ICU
+"2A.M1.00028A : Systematic lupus erythematosus -
+HDU",1350,HDU,2A.M1.00028A,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,912,HDU
+"2A.M1.00028 : Systematic lupus erythematosus -
+routine ward",900,routine ward,2A.M1.00028,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,913,routine ward
+"2A.M1.00027C : Pericardial/ Pleural tuberculosis -
+ICU with ventilator",2250,ICU with ventilator,2A.M1.00027C,,"clinical notes, Smear examination,
+X-ray chest","clinical notes, X-ray chest","GENERAL
+MEDICINE",0,0,914,ICU
+"2A.M1.00027B : Pericardial/ Pleural tuberculosis -
+ICU without ventilator",1800,ICU without ventilator,2A.M1.00027B,,"clinical notes, Smear examination,
+X-ray chest","clinical notes, X-ray chest","GENERAL
+MEDICINE",0,0,915,ICU
+"2A.M1.00027A : Pericardial/ Pleural tuberculosis -
+HDU",1350,HDU,2A.M1.00027A,,"clinical notes, Smear examination,
+X-ray chest","clinical notes, X-ray chest","GENERAL
+MEDICINE",0,0,916,HDU
+"2A.M1.00027 : Pericardial/ Pleural tuberculosis -
+routine ward",900,routine ward,2A.M1.00027,,"clinical notes, Smear examination,
+X-ray chest","clinical notes, X-ray chest","GENERAL
+MEDICINE",0,0,917,routine ward
+"2A.M1.00026C : Pyrexia of unknown origin - ICU
+with ventilator",2250,ICU with ventilator,2A.M1.00026C,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,918,ICU
+"2A.M1.00026B : Pyrexia of unknown origin - ICU
+without ventilator",1800,ICU without ventilator,2A.M1.00026B,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,919,ICU
+2A.M1.00026A : Pyrexia of unknown origin - HDU,1350,HDU,2A.M1.00026A,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,920,HDU
+"2A.M1.00026 : Pyrexia of unknown origin - routine
+ward",900,routine ward,2A.M1.00026,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,921,routine ward
+"2A.M1.00022B : Acute viral hepatitis - ICU without
+ventilator",1800,ICU without ventilator,2A.M1.00022B,"CLD, Chronic Liver Disease ","clinical notes, LFT","clinical notes, LFT","GENERAL
+MEDICINE",0,0,922,ICU
+"2A.M1.00022C : Acute viral hepatitis - ICU with
+ventilator",2250,ICU with ventilator,2A.M1.00022C,"CLD, Chronic Liver Disease ","clinical notes, LFT","clinical notes, LFT","GENERAL
+MEDICINE",0,0,923,ICU
+2A.M1.00022A : Acute viral hepatitis - HDU,1350,HDU,2A.M1.00022A,"CLD, Chronic Liver Disease ","clinical notes, LFT","clinical notes, LFT","GENERAL
+MEDICINE",0,0,924,HDU
+2A.M1.00022 : Acute viral hepatitis - routine ward,900,routine ward,2A.M1.00022,"CLD, Chronic Liver Disease ","clinical notes, LFT","clinical notes, LFT","GENERAL
+MEDICINE",0,0,925,routine ward
+2A.M1.00021C : Liver abscess - ICU with ventilator,2250,ICU with ventilator,2A.M1.00021C,,"clinical notes, USG /X-ray abdomen","clinical notes, USG /X-ray abdomen","GENERAL
+MEDICINE",0,0,926,ICU
+"2A.M1.00021B : Liver abscess - ICU without
+ventilator",1800,ICU without ventilator,2A.M1.00021B,,"clinical notes, USG /X-ray abdomen","clinical notes, USG /X-ray abdomen","GENERAL
+MEDICINE",0,0,927,ICU
+2A.M1.00021A : Liver abscess - HDU,1350,HDU,2A.M1.00021A,,"clinical notes, USG /X-ray abdomen","clinical notes, USG /X-ray abdomen","GENERAL
+MEDICINE",0,0,928,HDU
+2A.M1.00021 : Liver abscess - routine ward,900,routine ward,2A.M1.00021,,"clinical notes, USG /X-ray abdomen","clinical notes, USG /X-ray abdomen","GENERAL
+MEDICINE",0,0,929,routine ward
+2A.M1.00019C : Pneumonia - ICU with ventilator,2250,ICU with ventilator,2A.M1.00019C,,"clinical notes, X-ray",clinical notes,"GENERAL
+MEDICINE",0,0,930,ICU
+2A.M1.00019B : Pneumonia - ICU without ventilator,1800,ICU without ventilator,2A.M1.00019B,,"clinical notes, X-ray",clinical notes,"GENERAL
+MEDICINE",0,0,931,ICU
+2A.M1.00019A : Pneumonia - HDU,1350,HDU,2A.M1.00019A,,"clinical notes, X-ray",clinical notes,"GENERAL
+MEDICINE",0,0,932,HDU
+2A.M1.00019 : Pneumonia - routine ward,900,routine ward,2A.M1.00019,,"clinical notes, X-ray",clinical notes,"GENERAL
+MEDICINE",0,0,933,routine ward
+2A.M1.00018C : Enteric fever - ICU with ventilator,2250,ICU with ventilator,2A.M1.00018C,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,934,ICU
+"2A.M1.00018B : Enteric fever - ICU without
+ventilator",1800,ICU without ventilator,2A.M1.00018B,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,935,ICU
+2A.M1.00018A : Enteric fever - HDU,1350,HDU,2A.M1.00018A,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,936,HDU
+2A.M1.00018 : Enteric fever - routine ward,900,routine ward,2A.M1.00018,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,937,routine ward
+2A.M1.00017C : Leptospirosis - ICU with ventilator,2250,ICU with ventilator,2A.M1.00017C,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,938,ICU
+"2A.M1.00017B : Leptospirosis - ICU without
+ventilator",1800,ICU without ventilator,2A.M1.00017B,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,939,ICU
+2A.M1.00017A : Leptospirosis - HDU,1350,HDU,2A.M1.00017A,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,940,HDU
+2A.M1.00017 : Leptospirosis - routine ward,900,routine ward,2A.M1.00017,,"clinical notes, Blood examination
+report",clinical notes,"GENERAL
+MEDICINE",0,0,941,routine ward
+"2A.M1.00015B : Dengue fever - ICU without
+ventilator",1800,ICU without ventilator,2A.M1.00015B,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,942,ICU
+2A.M1.00015A : Dengue fever - HDU,1350,HDU,2A.M1.00015A,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,943,HDU
+2A.M1.00015 : Dengue fever - routine ward,900,routine ward,2A.M1.00015,,"clinical notes, Blood examination
+report","clinical notes, Blood examination
+report","GENERAL
+MEDICINE",0,0,944,routine ward
+"2A.M1.00014C : Malaria - ICU with ventilator - cross
+speciality",2250,ICU with ventilator,2A.M1.00014C,,"clinical notes, Peripheral blood
+examination report",clinical notes,"GENERAL
+MEDICINE",0,0,945,ICU
+"2A.M1.00014B : Malaria - ICU without ventilator -
+cross speciality",1800,ICU without ventilator,2A.M1.00014B,,"clinical notes, Peripheral blood
+examination report",clinical notes,"GENERAL
+MEDICINE",0,0,946,ICU
+2A.M1.00014A : Malaria - HDU - cross speciality,1350,HDU,2A.M1.00014A,,"clinical notes, Peripheral blood
+examination report",clinical notes,"GENERAL
+MEDICINE",0,0,947,HDU
+"2A.M1.00014 : Malaria - routine ward - cross
+speciality",900,routine ward,2A.M1.00014,,"clinical notes, Peripheral blood
+examination report",clinical notes,"GENERAL
+MEDICINE",0,0,948,routine ward
+2A.M1.00013C : UTI - ICU with ventilator,2250,ICU with ventilator,2A.M1.00013C,,"clinical notes, Urine - C/S",clinical notes,"GENERAL
+MEDICINE",0,0,949,ICU
+2A.M1.00013B : UTI - ICU without ventilator,1800,ICU without ventilator,2A.M1.00013B,,"clinical notes, Urine - C/S",clinical notes,"GENERAL
+MEDICINE",0,0,950,ICU
+2A.M1.00013A : UTI - HDU,1350,HDU,2A.M1.00013A,,"clinical notes, Urine - C/S",clinical notes,"GENERAL
+MEDICINE",0,0,951,HDU
+2A.M1.00013 : UTI - routine ward,900,routine ward,2A.M1.00013,,"clinical notes, Urine - C/S",clinical notes,"GENERAL
+MEDICINE",0,0,952,routine ward
+"2A.M1.00011C : Acute febrile illness - ICU with
+ventilator",2250,ICU with ventilator,2A.M1.00011C,AFI,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,953,ICU
+2A.M1.00011A : Acute febrile illness - HDU,1350,HDU,2A.M1.00011A,AFI,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,954,HDU
+"2A.M1.00011B : Acute febrile illness - ICU without
+ventilator",1800,ICU without ventilator,2A.M1.00011B,AFI,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,955,ICU
+2A.M1.00011 : Acute febrile illness - routine ward,900,routine ward,2A.M1.00011,AFI,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,956,routine ward
+2A.M1.00009C : Severe anemia - ICU with ventilator,2250,ICU with ventilator,2A.M1.00009C,,"clinical notes, HB%","clinical notes, HB%","GENERAL
+MEDICINE",0,0,957,ICU
+"2A.M1.00009B : Severe anemia - ICU without
+ventilator",1800,ICU without ventilator,2A.M1.00009B,,"clinical notes, HB%","clinical notes, HB%","GENERAL
+MEDICINE",0,0,958,ICU
+2A.M1.00009A : Severe anemia - HDU,1350,HDU,2A.M1.00009A,,"clinical notes, HB%","clinical notes, HB%","GENERAL
+MEDICINE",0,0,959,HDU
+2A.M1.00009 : Severe anemia - routine ward,900,routine ward,2A.M1.00009,,"clinical notes, HB%","clinical notes, HB%","GENERAL
+MEDICINE",0,0,960,routine ward
+"2A.M1.00005C : Acute bronchitis - ICU with
+ventilator",2250,ICU with ventilator,2A.M1.00005C,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,961,ICU
+"2A.M1.00005B : Acute bronchitis - ICU without
+ventilator",1800,ICU without ventilator,2A.M1.00005B,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,962,ICU
+2A.M1.00005A : Acute bronchitis - HDU,1350,HDU,2A.M1.00005A,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,963,HDU
+2A.M1.00005 : Acute bronchitis - routine ward,900,routine ward,2A.M1.00005,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,964,routine ward
+2A.M1.00004C : Renal colic - ICU with ventilator,2250,ICU with ventilator,2A.M1.00004C,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,965,ICU
+2A.M1.00004B : Renal colic - ICU without ventilator,1800,ICU without ventilator,2A.M1.00004B,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,966,ICU
+2A.M1.00004A : Renal colic - HDU,1350,HDU,2A.M1.00004A,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,967,HDU
+2A.M1.00004 : Renal colic - routine ward,900,routine ward,2A.M1.00004,,clinical notes,clinical notes,"GENERAL
+MEDICINE",0,0,968,routine ward
+2A.M1.00003C : Dysentery - ICU with ventilator,2250,ICU with ventilator,2A.M1.00003C,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,969,ICU
+2A.M1.00003B : Dysentery - ICU without ventilator,1800,ICU without ventilator,2A.M1.00003B,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,970,ICU
+2A.M1.00003A : Dysentery - HDU,1350,HDU,2A.M1.00003A,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,971,HDU
+2A.M1.00003 : Dysentery - routine ward,900,routine ward,2A.M1.00003,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,972,routine ward
+"2A.M1.00001C : Acute gastroenteritis with moderate
+dehydration - ICU with ventilator",2250,ICU with ventilator,2A.M1.00001C,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,973,ICU
+"2A.M1.00001B : Acute gastroenteritis with moderate
+dehydration - ICU without ventilator",1800,ICU without ventilator,2A.M1.00001B,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,974,ICU
+"2A.M1.00001A : Acute gastroenteritis with moderate
+dehydration - HDU",1350,HDU,2A.M1.00001A,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,975,HDU
+"2A.M1.00001 : Acute gastroenteritis with moderate
+dehydration - routine ward",900,routine ward,2A.M1.00001,,"Relevant Hematological
+investigations, Clinical notes",Treatment notes,"GENERAL
+MEDICINE",0,0,976,routine ward
+,,ICU with ventilator,,,,,"GENERAL
+MEDICINE",,,,Other/Unspecified
+,,ICU without ventilator,,,,,"GENERAL
+MEDICINE",,,,Other/Unspecified
+,,ICU without ventilator,,,,,"GENERAL
+MEDICINE",,,,Other/Unspecified
+,,,,,,,"GENERAL
+MEDICINE",,,,Other/Unspecified
