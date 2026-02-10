@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABARK Code Search</title>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        #search-box { width: 100%; padding: 12px; margin-bottom: 20px; font-size: 1.1em; }
+        .stats { font-size: 0.8em; color: #666; margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #f4f4f4; position: sticky; top: 0; }
+    </style>
+</head>
+<body>
+
+    <h2>ABARK Code lookup</h2>
+    <input type="text" id="search-box" placeholder="Search by code, diagnosis, or description...">
+    <div class="stats" id="stats">Loading data...</div>
+
+    <table>
+        <thead>
+            <tr id="table-head"></tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <script>
+        let fuse;
+        const searchBox = document.getElementById('search-box');
+        const tableBody = document.getElementById('table-body');
+        const tableHead = document.getElementById('table-head');
+        const stats = document.getElementById('stats');
+
+        // 1. Load the CSV File
+        Papa.parse("data.csv", {
+            download: true,
+            header: true,
+            complete: function(results) {
+                const data = results.data;
+                setupSearch(data);
+                renderTable(data);
+                
+                // Create table headers dynamically
+                Object.keys(data[0]).forEach(key => {
+                    const th = document.createElement('th');
+                    th.textContent = key;
+                    tableHead.appendChild(th);
+                });
+                stats.textContent = `Loaded ${data.length} codes.`;
+            }
+        });
+
+        function setupSearch(data) {
+            fuse = new Fuse(data, {
+                keys: Object.keys(data[0]), // Search all columns
+                threshold: 0.3
+            });
+        }
+
+        searchBox.addEventListener('input', (e) => {
+            const query = e.target.value;
+            if (!query) {
+                renderTable(fuse.getIndex().docs);
+                return;
+            }
+            const results = fuse.search(query).map(r => r.item);
+            renderTable(results);
+        });
+
+        function renderTable(data) {
+            tableBody.innerHTML = '';
+            data.slice(0, 100).forEach(row => { // Limit to 100 for performance
+                const tr = document.createElement('tr');
+                Object.values(row).forEach(val => {
+                    const td = document.createElement('td');
+                    td.textContent = val;
+                    tr.appendChild(td);
+                });
+                tableBody.appendChild(tr);
+            });
+        }
+    </script>
+</body>
+</html>
