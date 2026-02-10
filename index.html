@@ -3,29 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABARK Code Search</title>
+    <title>ABARK Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
     <style>
-        #search-box { width: 100%; padding: 12px; margin-bottom: 20px; font-size: 1.1em; }
-        .stats { font-size: 0.8em; color: #666; margin-bottom: 10px; }
+        :root {
+            --google-blue: #4285f4;
+            --google-gray: #70757a;
+            --google-border: #dfe1e5;
+            --bg-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Roboto', arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: #202124;
+        }
+
+        /* Google-like Header & Search Bar */
+        .search-container {
+            position: sticky;
+            top: 0;
+            background: #fff;
+            padding: 20px 10px;
+            z-index: 100;
+            border-bottom: 1px solid var(--google-border);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 400;
+            margin: 0 0 15px 0;
+        }
+
+        .search-wrapper {
+            max-width: 584px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        #search-box {
+            width: 100%;
+            height: 44px;
+            padding: 0 20px;
+            font-size: 16px;
+            border: 1px solid var(--google-border);
+            border-radius: 24px;
+            outline: none;
+            transition: box-shadow 0.2s;
+            box-sizing: border-box;
+        }
+
+        #search-box:focus, #search-box:hover {
+            box-shadow: 0 1px 6px rgba(32,33,36,.28);
+            border-color: rgba(223,225,229,0);
+        }
+
+        .stats {
+            max-width: 584px;
+            margin: 10px auto 0;
+            font-size: 14px;
+            color: var(--google-gray);
+            text-align: left;
+        }
+
+        /* Results Area */
+        .results-container {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        /* Desktop Table Styling */
         table { width: 100%; border-collapse: collapse; }
-        th { background: #f4f4f4; position: sticky; top: 0; }
+        th { text-align: left; padding: 12px; color: var(--google-gray); font-weight: 500; border-bottom: 1px solid var(--google-border); }
+        td { padding: 15px 12px; border-bottom: 1px solid #eee; line-height: 1.4; }
+
+        /* MOBILE CARD VIEW */
+        @media screen and (max-width: 600px) {
+            .search-container { padding: 15px 10px; }
+            h1 { font-size: 20px; }
+            
+            table, thead, tbody, th, td, tr { display: block; }
+            thead { display: none; } /* Hide headers on mobile */
+            
+            tr {
+                padding: 15px 0;
+                border-bottom: 8px solid #f8f9fa; /* Section divider */
+            }
+
+            td {
+                border: none;
+                padding: 5px 0 5px 120px;
+                position: relative;
+                font-size: 14px;
+            }
+
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 110px;
+                font-weight: 500;
+                color: var(--google-gray);
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+
+            /* Make the first item (likely the Procedure/Diagnosis) look like a title */
+            td:first-of-type {
+                padding-left: 0;
+                font-size: 18px;
+                color: var(--google-blue);
+                margin-bottom: 5px;
+            }
+            td:first-of-type::before { display: none; }
+        }
     </style>
 </head>
 <body>
 
-    <h2>ABARK Code lookup</h2>
-    <input type="text" id="search-box" placeholder="Search by code, diagnosis, or description...">
-    <div class="stats" id="stats">Loading data...</div>
+    <div class="search-container">
+        <h1>ABARK Lookup</h1>
+        <div class="search-wrapper">
+            <input type="text" id="search-box" placeholder="Search diagnosis or code..." autocomplete="off">
+        </div>
+        <div class="stats" id="stats">Loading database...</div>
+    </div>
 
-    <table>
-        <thead>
-            <tr id="table-head"></tr>
-        </thead>
-        <tbody id="table-body"></tbody>
-    </table>
+    <div class="results-container">
+        <table id="data-table">
+            <thead><tr id="table-head"></tr></thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
 
     <script>
         let fuse;
@@ -34,49 +153,53 @@
         const tableHead = document.getElementById('table-head');
         const stats = document.getElementById('stats');
 
-        // 1. Load the CSV File
         Papa.parse("data.csv", {
             download: true,
             header: true,
+            skipEmptyLines: true,
             complete: function(results) {
                 const data = results.data;
-                setupSearch(data);
-                renderTable(data);
                 
-                // Create table headers dynamically
+                // Initialize Headers
                 Object.keys(data[0]).forEach(key => {
                     const th = document.createElement('th');
                     th.textContent = key;
                     tableHead.appendChild(th);
                 });
-                stats.textContent = `Loaded ${data.length} codes.`;
+
+                // Initialize Fuzzy Search
+                fuse = new Fuse(data, {
+                    keys: Object.keys(data[0]),
+                    threshold: 0.3,
+                    distance: 100
+                });
+
+                renderTable(data);
+                stats.textContent = `About ${data.length} results`;
             }
         });
-
-        function setupSearch(data) {
-            fuse = new Fuse(data, {
-                keys: Object.keys(data[0]), // Search all columns
-                threshold: 0.3
-            });
-        }
 
         searchBox.addEventListener('input', (e) => {
             const query = e.target.value;
             if (!query) {
                 renderTable(fuse.getIndex().docs);
+                stats.textContent = `About ${fuse.getIndex().docs.length} results`;
                 return;
             }
-            const results = fuse.search(query).map(r => r.item);
-            renderTable(results);
+            const results = fuse.search(query);
+            renderTable(results.map(r => r.item));
+            stats.textContent = `${results.length} results found`;
         });
 
         function renderTable(data) {
             tableBody.innerHTML = '';
-            data.slice(0, 100).forEach(row => { // Limit to 100 for performance
+            // Only show top 50 for speed, user can refine search
+            data.slice(0, 50).forEach(row => {
                 const tr = document.createElement('tr');
-                Object.values(row).forEach(val => {
+                Object.entries(row).forEach(([key, val]) => {
                     const td = document.createElement('td');
-                    td.textContent = val;
+                    td.textContent = val || "-";
+                    td.setAttribute('data-label', key);
                     tr.appendChild(td);
                 });
                 tableBody.appendChild(tr);
